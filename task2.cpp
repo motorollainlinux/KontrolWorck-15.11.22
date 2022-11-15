@@ -1,11 +1,6 @@
 
 #include <iostream>
 
-int main() {
-    int Quarter;
-    Definition(Quarter);
-    std::cout << Quarter;
-}
 void Definition(int &Quarter) {
     int X, Y;
     std::cin >> X >> Y;
@@ -18,4 +13,8 @@ void Definition(int &Quarter) {
     else
     Quarter = 4;
 }
-
+int main() {
+    int Quarter;
+    Definition(Quarter);
+    std::cout << Quarter;
+}
